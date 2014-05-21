@@ -10,7 +10,8 @@
     "discore/closest": "*",
     "jonathanong/complement": "*",
     "ianstormtaylor/next-sibling": "*",
-    "ianstormtaylor/previous-sibling": "*"
+    "ianstormtaylor/previous-sibling": "*",
+    "sk7/caret": "*"
   },
   "development": {
     "component/assert": "*",
