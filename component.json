@@ -8,7 +8,7 @@
     "component/classes": "*",
     "component/debounce": "*",
     "discore/closest": "*",
-    "jonathanong/complement": "*",
+    "ubergrape/complement": "*",
     "ianstormtaylor/next-sibling": "*",
     "ianstormtaylor/previous-sibling": "*",
     "sk7/caret": "*"
