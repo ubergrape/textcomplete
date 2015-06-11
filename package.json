@@ -9,7 +9,7 @@
     "debounce": "git://github.com/npmcomponent/component-debounce.git",
     "closest": "git://github.com/npmcomponent/discore-closest.git",
     "next-sibling": "git://github.com/npmcomponent/ianstormtaylor-next-sibling.git",
-    "previous-sibling": "git://github.com/npmcomponent/ianstormtaylor-previous-sibling.git"
+    "previous-sibling": "git://github.com/npmcomponent/ianstormtaylor-previous-sibling.git",
     "complement": "ubergrape/complement",
     "caret": "ubergrape/caret"
   },
