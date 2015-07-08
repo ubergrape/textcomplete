@@ -2,16 +2,21 @@
   "name": "textcomplete",
   "version": "0.0.1",
   "description": "textcomplete",
+  "browser": {
+    "query": "component-query",
+    "classes": "component-classes",
+    "closest": "component-closest"
+  },
   "dependencies": {
-    "query": "git://github.com/npmcomponent/component-query.git",
-    "keyname": "git://github.com/npmcomponent/component-keyname.git",
-    "classes": "git://github.com/npmcomponent/component-classes.git",
-    "debounce": "git://github.com/npmcomponent/component-debounce.git",
-    "closest": "git://github.com/npmcomponent/discore-closest.git",
-    "next-sibling": "git://github.com/npmcomponent/ianstormtaylor-next-sibling.git",
-    "previous-sibling": "git://github.com/npmcomponent/ianstormtaylor-previous-sibling.git",
-    "complement": "ubergrape/complement",
-    "caret": "ubergrape/caret"
+    "query": "git+ssh://git@github.com/component/query.git",
+    "keyname": "git+ssh://git@github.com/component/keyname.git",
+    "classes": "git+ssh://git@github.com/component/classes.git",
+    "debounce": "git+ssh://git@github.com/component/debounce.git",
+    "closest": "git+ssh://git@github.com/component/closest.git",
+    "next-sibling": "git+ssh://git@github.com/ianstormtaylor/next-sibling.git",
+    "previous-sibling": "git+ssh://git@github.com/ianstormtaylor/previous-sibling.git",
+    "complement": "git+ssh://git@github.com/ubergrape/complement",
+    "caret": "git+ssh://git@github.com/ubergrape/caret"
   },
   "main": "lib/index.js",
   "styles": [
