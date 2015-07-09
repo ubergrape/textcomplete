@@ -3,15 +3,25 @@
   "version": "0.0.1",
   "description": "textcomplete",
   "dependencies": {
-    "query": "git://github.com/npmcomponent/component-query.git",
-    "keyname": "git://github.com/npmcomponent/component-keyname.git",
-    "classes": "git://github.com/npmcomponent/component-classes.git",
-    "debounce": "git://github.com/npmcomponent/component-debounce.git",
-    "closest": "git://github.com/npmcomponent/discore-closest.git",
-    "next-sibling": "git://github.com/npmcomponent/ianstormtaylor-next-sibling.git",
-    "previous-sibling": "git://github.com/npmcomponent/ianstormtaylor-previous-sibling.git",
+    "component-caret": "ubergrape/caret",
     "complement": "ubergrape/complement",
-    "caret": "ubergrape/caret"
+    "component-classes": "^1.2.4",
+    "component-closest": "^0.1.4",
+    "component-query": "0.0.3",
+    "component-debounce": "git://github.com/npmcomponent/component-debounce.git",
+    "component-keyname": "git://github.com/npmcomponent/component-keyname.git",
+    "ianstormtaylor-next-sibling": "git://github.com/npmcomponent/ianstormtaylor-next-sibling.git",
+    "ianstormtaylor-previous-sibling": "git://github.com/npmcomponent/ianstormtaylor-previous-sibling.git"
+  },
+  "browser": {
+    "caret": "component-caret",
+    "classes": "component-classes",
+    "closest": "component-closest",
+    "debounce": "component-debounce",
+    "keyname": "component-keyname",
+    "next-sibling": "ianstormtaylor-next-sibling",
+    "previous-sibling": "ianstormtaylor-previous-sibling",
+    "query": "component-query"
   },
   "main": "lib/index.js",
   "styles": [
